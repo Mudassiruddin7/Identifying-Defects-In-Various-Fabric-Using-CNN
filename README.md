@@ -94,7 +94,7 @@ So, the dataset in the project was collected from a private repository and some 
 
 **Defect**
 
-![Defect](https://www.bmsvision.com/sites/default/files/Defect_Local.png)
+![Defect](https://i0.wp.com/garmentsmerchandising.com/wp-content/uploads/2016/03/Broken-pick.png)
 
 # _Issues Faced._
 1. We might face an issue while installing specific libraries.
