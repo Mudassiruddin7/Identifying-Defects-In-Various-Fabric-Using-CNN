@@ -45,7 +45,8 @@ https://www.python.org/downloads/
 # _**How to create a new environment and configure jupyter notebook with it.**_
 Let us define an environment and why we need different environments. An environment is a collection of libraries that are required to run our project. When we already have an environment with the necessary libraries, why do we need a new environment?
 To avoid version mismatches, we create a new environment for each project. For example, in your previous project, you used "tf env" with tensorflow 2.4 and keras 2.4, but in your current project, you must use tensorflow 2.6 and keras 2.6. If you continue your project in the "tf env" environment, there will be a version mismatch and you will need to update tensorflow and keras, but this will cause problems with the previous project's execution. To avoid this, we create a new environment with tensorflow 2.6 and keras 2.6 and resume our project.
-Let us now see how to create an environment in anaconda.
+
+# _**Let us now see how to create an environment in Anaconda.**_
 + Type “conda create –n <<name_of_your_env>>”
 example: conda create -n env
 + It will ask to proceed with the environment location, type ‘y’ and press enter.
@@ -69,9 +70,8 @@ So, to solve it it we have 2 commands.
 2.	conda install –c anaconda python
 Now you are ready to use jupyter on this environment and start with your project!
 
-![thanks](https://media1.tenor.com/images/11ae4fcfc41bb9e66a0176fcfc38e695/tenor.gif?itemid=8486985)
-  
-  
+![Happy](https://media0.giphy.com/media/l1J9vjZgVNYsSTTeo/giphy.gif)  
+
 # _**Steps to execute**_
 **Note:** Make sure you have added path while installing the software’s.
 
@@ -83,10 +83,10 @@ Now you are ready to use jupyter on this environment and start with your project
 4.	Make sure you are in the correct path in your terminal, where you have saved your executable file/folder. E.g.: cd A:\project\AI\Completed\project_name, then press enter.
 5.	Install necessary libraries from requirements.txt file provided.
 6.	Run pip install -r requirements.txt or conda install requirements.txt (Requirements.txt is a text file consisting of all the necessary libraries required for executing this python file. If it gives any error while installing libraries, you might need to install them individually.)
-7.      Run main.ipynb run the final code, and make sure to change the path of the model and image folders. You can even see preprocess.ipynb to get a feel of how the images are pre-processed.
+7.  Run main.ipynb run the final code, and make sure to change the path of the model and image folders. You can even see preprocess.ipynb to get a feel of how the images are pre-processed.
 
 # _**Data Description**_
-So, the dataset in the project was collected from a private repository and some were collected from Kaggle data repository. It consists of two classes of images each class consists of more than 100 images. Defected fabric and normal. Below are some sample images of 2 classes.
+So, the dataset in the project was collected from a private repository and some were collected from Kaggle data repository. It consists of two classes of images each class consists of more than 100 images. Defected fabric and normal. Below are some sample images of 2 classes. Create your own Dataset from sources like kaggle, google etc.
 
 **Normal**
 
@@ -106,7 +106,8 @@ So, the dataset in the project was collected from a private repository and some 
 **All the required data hasn't been provided over here. Please feel free to contact me for dataset or any issues.**
 
 ### **Let’s Connect**
-+ https://www.linkedin.com/in/mudassiruddin21
+
+<a href="https://linkedin.com/in/mudassiruddin21" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="mudassiruddin21" height="30" width="40" /></a>
 
 ![Connect](https://media0.giphy.com/media/l9ZWFT0IjZbzi/200w.gif)
 
